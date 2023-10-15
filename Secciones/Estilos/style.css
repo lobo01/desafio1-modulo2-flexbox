@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #e8ebe4;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactos {
+    display: flex;
+    width: 30%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.chat {
+    width: 70%;
+    height: 100vh;
+    background-color: #e8ebe4;
+}
+
+.manos {
+    display: flex;
+    justify-content: center;
+}
+
+.manos img {
+    padding-top: 20%;
+    width: 25%;
+    height: auto;
+}
+
+.texto {
+    text-align: center;
+}
+
