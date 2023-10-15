@@ -1,7 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: #e8ebe4;
+    background-color: yellow;
+    border: 2px solid red;
 }
 
 .principal {
@@ -9,7 +10,83 @@
     flex-direction: row;
 }
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+    background-color: brown;
+
+}
+
+.chat {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    display: flex; 
+    width: 250px;
+    height: 250px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario{
+    display: flex;
+    border: 1px solid rgb(193, 189, 189);
+}
+
+.usuario img {
+    margin: 5%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.nombre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 6% 0 0 0;
+}
+
+.estado {
+ color: rgb(210, 210, 210);
+ margin: 11% 0 0 -17%;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-llamado {
+    display: flex;
+    background-color: rgb(212, 72, 151);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 12px 12px 12px;
+}
+
+
+
+
+/* .principal {
+    display: flex;
+    flex-direction: row;
+}
+
 .contactos {
+    margin: 0px;
+    padding: 0px;
     display: flex;
     width: 30%;
     height: 100vh;
@@ -37,3 +114,8 @@
     text-align: center;
 }
 
+.img {
+    display: flex;
+}
+
+ */
