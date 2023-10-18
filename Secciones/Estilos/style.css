@@ -73,7 +73,8 @@
     background-color: rgb(212, 72, 151);
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 12px 12px 12px 12px;
+    padding: 12px 70px 12px 70px;
+    border-radius: 10%;
 }
 
 
